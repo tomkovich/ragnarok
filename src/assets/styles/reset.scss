@@ -1,0 +1,87 @@
+@import "./colors.scss";
+
+body {
+  background: $main;
+  font-family: "Rubik", Roboto, sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  color: $white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button {
+  border: none;
+  background: none;
+  outline: none;
+  color: $white;
+  font-size: 16px;
+  font-family: "Rubik", Roboto, sans-serif;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1420px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  color: $white;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.violet {
+  color: $violet;
+}
+
+.orange {
+  color: $orange;
+}
